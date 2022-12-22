@@ -1,0 +1,402 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<title>project :: Project3 Settings</title>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css"/>
+<!-- <link rel="stylesheet" href="css/index.css"> -->
+<link rel="stylesheet" href="css/index copy.css">
+<script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-mousewheel/3.1.13/jquery.mousewheel.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.1/gsap.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+<script src="js/page1.js"></script>
+<script src="js/main.js"></script>
+</head>
+<body>
+
+<div class="wrap">
+	<header id="header">
+		<div class="top">
+			<h1>
+				<a href=><img src="./image/header-logo_cr.png" alt="ACE"></a>
+			</h1>
+			<nav id="gnb">
+				<ul>
+					<li>
+						<a href="">BED</a>
+						<ul>
+							<li><a href="">프레임</a></li>
+							<li><a href="">매트리스</a></li>
+							<li><a href="">신제품</a></li>
+						</ul>
+					</li>
+					<li>
+						<a href="">FURNITURE</a>
+						<ul>
+							<li><a href="">룸세트</a></li>
+							<li><a href="">리빙가구</a></li>
+						</ul>
+					</li>
+					<li>
+						<a href="">STRESSLESS</a>
+						<ul>
+							<li><a href="">1인용 리클라이너</a></li>
+							<li><a href="">오피스체어</a></li>
+							<li><a href="">소파</a></li>
+							<li><a href="">테이블&악세사리</a></li>
+						</ul>
+					</li>
+					<li>
+						<a href="">SLEEP CARE</a>
+						<ul>
+							<li><a href="">마이크로케어</a></li>
+							<li><a href="">스마트슬리브</a></li>
+							<li><a href="">마이크로케어 쿨링패드</a></li>
+							<li><a href="">마이크로가드 eco</a></li>
+						</ul>
+					</li>
+				</ul>
+			</nav>
+			<!-- <nav id="mobile">
+				<ul>
+					<li>
+						<a href="">BED</a>
+						<ul class="sub">
+							<li><a href="">프레임</a></li>
+							<li><a href="">매트리스</a></li>
+							<li><a href="">신제품</a></li>
+						</ul>
+					</li>
+					<li>
+						<a href="">FURNITURE</a>
+						<ul class="sub">
+							<li><a href="">룸세트</a></li>
+							<li><a href="">리빙가구</a></li>
+						</ul>
+					</li>
+					<li>
+						<a href="">STRESSLESS</a>
+						<ul class="sub">
+							<li><a href="">1인용 리클라이너</a></li>
+							<li><a href="">오피스체어</a></li>
+							<li><a href="">소파</a></li>
+							<li><a href="">테이블&악세사리</a></li>
+						</ul>
+					</li>
+					<li>
+						<a href="">SLEEP CARE</a>
+						<ul class="sub">
+							<li><a href="">마이크로케어</a></li>
+							<li><a href="">스마트슬리브</a></li>
+							<li><a href="">마이크로케어 쿨링패드</a></li>
+							<li><a href="">마이크로가드 eco</a></li>
+						</ul>
+					</li>
+				</ul>
+			</nav> -->
+			<!-- <a href="" class="tab">tab</a> -->
+			<div class="utils">
+				<a href="" class="searc"><img src="image/search_blackbtn.png" alt="search"></a>
+				<a href="" class="login"><img src="image/login_blackbtn.png" alt="login"></a>
+				<a href="" class="notice"><img src="image/notice_blackbtn.png" alt="notice"></a>
+			</div>
+		</div>
+		<!-- Swiper slider -->
+		<div class="main_slider">
+			<div class="swiper-container mainSwiper">
+				<div class="swiper-wrapper">
+					<div class="swiper-slide">
+						<video id="intro_1" src="./image/2022_cf_ace.mp4" muted></video>
+						<div class="textbox">
+							<p class="title">'<b>좋은 잠</b>이 쌓인다'</p>
+							<span class="desc">WE ONLY MAKE THE BEST</span>
+							<span class="link"><a href="">view</a></span>
+						</div>
+					</div>
+					<div class="swiper-slide">
+						<video id="intro_2" src="./image/2022_cf_science.mp4" muted></video>
+						<div class="textbox">
+							<p class="title">'ACE SCIENCE'</p>
+							<span class="desc">휴식을 방해하는 모든 것이 사라지는 순간,<br> 
+							완벽한 평안함이 시작됩니다.</span>
+							<span class="link"><a href="">view</a></span>
+						</div>
+					</div>
+					<div class="swiper-pagination"></div>
+				</div>
+			</div>
+		</div>
+		<!-- Subslider -->
+		<!-- <div class="sub_slider">
+			<div class="rolling_area">
+				<a href="" class="video1">NEW TVCF  with 박보검</a>
+				<a href="" class="video2">NEW ACE SICIENCE</a>
+			</div>
+			<div class="controller">
+				<p><span class="bar"></span></p>
+				<a href="" id="pause_play" class="pause_play">
+					<span class="stop"></span>
+					<span class="play"></span>
+				</a>
+			</div>
+		</div> -->
+		<!-- controller -->
+		<ul class="controllers">
+			<li><a href="">button1</a></li>
+			<li><a href="">button2</a></li>
+			<li><a href="">button3</a></li>
+			<li><a href="">button4</a></li>
+			<li><a href="">button5</a></li>
+			<li><a href="">button6</a></li>
+		</ul>
+		<!-- dim -->
+		<div class="dim"></div>
+	</header>
+	<!-- page1 -->
+	<section id="page1">
+		<!-- swap_image -->
+		<div class="container">
+			<div class="swap_image">
+				<div class="swap_bg"><img src="./image/Bed IRINA.jpg" alt="image1"></div>
+				<div class="swap_bg"><img src="./image/Bed LUCE-III.jpg" alt="image2"></div>
+				<div class="swap_bg"><img src="./image/Bed ZANA.jpg" alt="image3"></div>
+				<div class="swap_bg"><img src="./image/Bed BMA-1165.jpg" alt="image4"></div>
+			</div>
+			<div class="banner_list">
+				<ul><!-- flex -->
+					<li> <!-- 01 -->
+						<div class="info_box">
+							<span class="link">view</span> 
+							<span class="title">IRINA</span>
+						</div>
+						<div class="do_info">
+							<ul>
+								<li><!-- flex -->
+									<p class="title">컨셉</p>
+									<p class="text">'일상에 아늑함'을 더하는 모던N타입</p>
+								</li>
+								<li>
+									<p class="title">소재</p>
+									<p class="text">패브릭</p>
+								</li>
+								<li>
+									<p class="title">용도</p>
+									<p class="text">1인침대/싱글침대</p>
+								</li>
+								<li>
+									<p class="title">컬러</p>
+									<p class="text">그레이/핑크</p>
+								</li>
+							</ul>
+							<div class="dim"></div>
+						</div>
+						<div class="btn">
+							<a href="" class="home"><span>홈페이지</span></a>
+							<a href="" class="like"><span>관심등록</span></a>
+						</div>
+					</li>
+					<li> <!-- 02 -->
+						<div class="info_box">
+							<span class="link">view</span> 
+							<span class="title">LUCE-III</span>
+						</div>
+						<div class="do_info">
+							<ul>
+								<li><!-- flex -->
+									<p class="title">컨셉</p>
+									<p class="text">‘LED조명’을 편안한 무드를 강조한 아트월  침대</p>
+								</li>
+								<li>
+									<p class="title">소재</p>
+									<p class="text">멀티소재</p>
+								</li>
+								<li>
+									<p class="title">용도</p>
+									<p class="text">2인침대/신혼침대</p>
+								</li>
+								<li>
+									<p class="title">컬러</p>
+									<p class="text">콜롬비아월넛</p>
+								</li>
+							</ul>
+							<div class="dim"></div> <!-- --> 
+						</div>
+						<div class="btn">
+							<a href="" class="home"><span>홈페이지</span></a>
+							<a href="" class="like"><span>관심등록</span></a>
+						</div>
+					</li>
+					<li> <!-- 03 -->
+						<div class="info_box">
+							<span class="link">view</span> 
+							<span class="title">ZANA</span>
+						</div>
+						<div class="do_info">
+							<ul>
+								<li><!-- flex -->
+									<p class="title">컨셉</p>
+									<p class="text">'유연한 곡선'이 아름다운 침대</p>
+								</li>
+								<li>
+									<p class="title">소재</p>
+									<p class="text">패브릭, 멀티소재</p>
+								</li>
+								<li>
+									<p class="title">용도</p>
+									<p class="text">2인침대/신혼침대</p>
+								</li>
+								<li>
+									<p class="title">컬러</p>
+									<p class="text">팬덤그레이/피치블라썸</p>
+								</li>
+							</ul>
+							<div class="dim"></div>
+						</div>
+						<div class="btn">
+							<a href="" class="home"><span>홈페이지</span></a>
+							<a href="" class="like"><span>관심등록</span></a>
+						</div>
+					</li>
+					<li> <!-- 04 -->
+						<div class="info_box">
+							<span class="link">view</span> 
+							<span class="title">BMA-1165</span>
+						</div>
+						<div class="do_info">
+							<ul>
+								<li><!-- flex -->
+									<p class="title">컨셉</p>
+									<p class="text">'자유로운 공간구성'인 호텔형 침대</p>
+								</li>
+								<li>
+									<p class="title">소재</p>
+									<p class="text">멀티소재</p>
+								</li>
+								<li>
+									<p class="title">용도</p>
+									<p class="text">2인침대</p>
+								</li>
+								<li>
+									<p class="title">컬러</p>
+									<p class="text">월넛/내추럴오크</p>
+								</li>
+							</ul>
+							<div class="dim"></div>
+						</div>
+						<div class="btn">
+							<a href="" class="home"><span>홈페이지</span></a>
+							<a href="" class="like"><span>관심등록</span></a>
+						</div>
+					</li>
+				</ul>
+			</div>
+		</div>
+
+	</section>
+	<!-- page2 -->
+	<section id="page2"><!-- flex / align-items center / height 100vh -->
+		<div class="content"><!-- flex / flex-direction row-reverse -->
+			<div class="right_text">
+				<strong>SERVICE</strong>
+				<span class="desc">고객센터:1688-5500</span>
+				<a href="" class="link">view</a>
+			</div>
+			<!-- 01 -->
+			<div class="left_area">
+				<ul><!-- flex -->
+					<li>
+						<div class="title">
+							<span>ACE NEWS<br>소식을 알려드려요!</span>
+						</div>
+						<div class="do_list">
+							<ul>
+								<li><a href="">매장오픈소식</a></li>
+								<li><a href="">매장리뉴얼</a></li>
+								<li><a href="">매장공지사항</a></li>
+							</ul>
+						</div>
+					</li>
+					<li>
+						<div class="title">
+							<span>NOW NEWS<br>소식을 알려드려요!</span>
+						</div>
+						<div class="do_list">
+							<ul>
+								<li><a href="">이벤트</a></li>
+								<li><a href="">당첨자 안내</a></li>
+								<li><a href="">고객후기</a></li>
+								<li><a href="">뉴스룸</a></li>
+							</ul>
+						</div>
+					</li>
+					<li>
+						<div class="title">
+							<span>ACE SICIENCE<br>소식을 알려드려요!</span>
+						</div>
+						<div class="do_list">
+							<ul>
+								<li><a href="">HYBRID Z SPRING</a></li>
+								<li><a href="">5 PREE SYSTEM</a></li>
+								<li><a href="">NEW MATERIAL</a></li>
+								<li><a href="">ECO & HEALTH</a></li>
+							</ul>
+						</div>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</section>
+	<!-- page3 -->
+	<section id="page3">
+		<div id="map">
+			<!-- <img src="./image/storemap_ico.jpg" alt="site_map"> -->
+			<!-- Google Map API -->
+		</div>
+		<div class="search_box">
+			<span>현재 고객님과 가까운<br>매장을 안내해 드립니다.</span>
+			<form>
+				<input type="text" placeholder="매장 및 지역명" maxlength="20">
+				<a href class="zoom">
+					<img src="image/search-btn.png" alt="검색">
+				</a>
+			</form>
+		</div>
+	</section>
+	<!-- footer -->
+	<footer id="footer">
+		<div class="inner">
+			<div class="ft_box">
+				<div class="ft_logo">
+					<a href=""><img src="image/header-logo_cr.png"></a>
+				</div>
+				<div class="ft_menu">
+					<div class="info">
+						<ul>
+							<li><a href="">기업정보</a></li>
+							<li><a href="">이용약관</a></li>
+							<li><a href="">개인정보처리방침</a></li>
+							<li><a href="">매장개설안내</a></li>
+							<li><a href="">고객지원</a></li>
+							<li><a href="">구매인증센터</a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			<div class="footer_right"><!-- flex -->
+				<p>copyright(c) 2018 W concept all rights reserved.</p>
+				<div class="adress">
+					<span>(주)에이스침대 / 사업자등록번호 : 129-81-02666<br>
+					본사 : 경기도 성남시 중원구 사기막골로 105번길 42(상대원동) 
+					서울영업본부 : 서울특별시 강남구 도산대로 218 / FAX : 02-544-878</span>
+				</div>
+			</div>
+		</div>
+	</footer>
+
+	<script async src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCpBuYRQaFFOM1WHuLcqfurJw9Frx7Z4i0&callback=initMap"></script>
+	<script src="js/map.js"></script>
+</body>
+</html>
