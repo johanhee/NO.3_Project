@@ -482,18 +482,51 @@ body {
 		display: none;
 	}
 	#page1 .container .banner_list li .do_info {
-		padding: 38px 0; 
+		padding: 33px 0; 
 	}
 	#page1 .container .banner_list li .do_info li {
 		justify-content: center;
 	}
+	#page1 .container .banner_list li .do_info .title {
+		justify-content: right;
+		width: 10%;
+		padding: 0 20px;
+	}
+	#page1 .container .banner_list li .do_info .text {
+		justify-content: left;
+		width: 32%;
+	}
 	#page1 .container .banner_list li .info_box {
 		padding: 0; 
 	}
+	#page1 .container .banner_list li .info_box .title {
+		margin-top:0 ; 
+		justify-content: center;
+		font-size: 2.5em;
+		line-height: 2;
+	}
+	#page1 .container .banner_list li .info_box .link {
+		display: none;
+	}
 	#page1 .container .banner_list .btn {
 		padding: 0; 
-		right:10%;
-		bottom:10%;
+		left:40%;
+		bottom:5%;
+		margin: 0 10px; 
+	}
+}
+@media only screen and (max-width: 768px) {
+	#page1 .container .banner_list li .do_info .text {
+		justify-content: left;
+		width: 50%;
+	}
+	#page1 .container .banner_list .btn {
+		left:37%;
+	}
+}
+@media only screen and (max-width: 500px) {
+	#page1 .container .banner_list .btn {
+		left:32%;
 	}
 }
 #page2 {
@@ -570,6 +603,22 @@ body {
 	font-weight: 600;
 	line-height: 26px;
 	color:#666;
+}
+@media only screen and (max-width: 980px) {
+	#page2 .content {
+		justify-content: center;
+	}
+	#page2 .content .left_area > ul > li {
+		width: 100%;
+	}
+	#page2 .content .right_text {
+		display: none;
+	}
+}
+@media only screen and (max-width: 980px) {
+	#page2 .content .left_area > ul {
+		flex-direction:column;
+	}
 }
 #page3 {
 	position: relative;
