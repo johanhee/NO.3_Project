@@ -6,23 +6,20 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css"/>
-<!-- <link rel="stylesheet" href="css/index.css"> -->
-<link rel="stylesheet" href="css/index copy.css">
+<link rel="stylesheet" href="css/index.css">
 <script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-mousewheel/3.1.13/jquery.mousewheel.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.1/gsap.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
-<script src="js/page1.js"></script>
 <script src="js/main.js"></script>
+<script src="js/mobile.js"></script>
 </head>
 <body>
 
 <div class="wrap">
 	<header id="header">
 		<div class="top">
-			<h1>
-				<a href=><img src="./image/header-logo_cr.png" alt="ACE"></a>
-			</h1>
+			<h1><a href=><img src="./image/header-logo_cr.png" alt="ACE"></a></h1>
 			<nav id="gnb">
 				<ul>
 					<li>
@@ -60,48 +57,54 @@
 					</li>
 				</ul>
 			</nav>
-			<!-- <nav id="mobile">
-				<ul>
-					<li>
-						<a href="">BED</a>
-						<ul class="sub">
-							<li><a href="">프레임</a></li>
-							<li><a href="">매트리스</a></li>
-							<li><a href="">신제품</a></li>
-						</ul>
-					</li>
-					<li>
-						<a href="">FURNITURE</a>
-						<ul class="sub">
-							<li><a href="">룸세트</a></li>
-							<li><a href="">리빙가구</a></li>
-						</ul>
-					</li>
-					<li>
-						<a href="">STRESSLESS</a>
-						<ul class="sub">
-							<li><a href="">1인용 리클라이너</a></li>
-							<li><a href="">오피스체어</a></li>
-							<li><a href="">소파</a></li>
-							<li><a href="">테이블&악세사리</a></li>
-						</ul>
-					</li>
-					<li>
-						<a href="">SLEEP CARE</a>
-						<ul class="sub">
-							<li><a href="">마이크로케어</a></li>
-							<li><a href="">스마트슬리브</a></li>
-							<li><a href="">마이크로케어 쿨링패드</a></li>
-							<li><a href="">마이크로가드 eco</a></li>
-						</ul>
-					</li>
-				</ul>
-			</nav> -->
-			<!-- <a href="" class="tab">tab</a> -->
 			<div class="utils">
 				<a href="" class="searc"><img src="image/search_blackbtn.png" alt="search"></a>
 				<a href="" class="login"><img src="image/login_blackbtn.png" alt="login"></a>
 				<a href="" class="notice"><img src="image/notice_blackbtn.png" alt="notice"></a>
+			</div>
+			<a href="" class="tab"><img src="./image/menu-btn.png" alt="tab"></a>
+		</div>
+		<div class="menu">
+			<a href="" class="close"><img src="./image/close-btn.png" alt="close"></a>
+			<nav id="moblie_gnb">
+					<ul>
+						<li>
+							<a href="">BED</a>
+							<ul class="sub">
+								<li><a href="">프레임</a></li>
+								<li><a href="">매트리스</a></li>
+								<li><a href="">신제품</a></li>
+							</ul>
+						</li>
+						<li>
+							<a href="">FURNITURE</a>
+							<ul class="sub">
+								<li><a href="">룸세트</a></li>
+								<li><a href="">리빙가구</a></li>
+							</ul>
+						</li>
+						<li>
+							<a href="">STRESSLESS</a>
+							<ul class="sub">
+								<li><a href="">1인용 리클라이너</a></li>
+								<li><a href="">오피스체어</a></li>
+								<li><a href="">소파</a></li>
+								<li><a href="">테이블&악세사리</a></li>
+							</ul>
+						</li>
+						<li>
+							<a href="">SLEEP CARE</a>
+							<ul class="sub">
+								<li><a href="">마이크로케어</a></li>
+								<li><a href="">스마트슬리브</a></li>
+								<li><a href="">마이크로케어 쿨링패드</a></li>
+								<li><a href="">마이크로가드 eco</a></li>
+							</ul>
+						</li>
+					</ul>
+			</nav>
+			<div class="banner">
+				<a href="" class="banner"><img src="./image/m-wedding-banner.jpg" alt="banner1"></a>
 			</div>
 		</div>
 		<!-- Swiper slider -->
