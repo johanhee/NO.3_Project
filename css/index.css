@@ -29,7 +29,7 @@ body {
 	color: #404258;
 	margin: 0;
 	padding: 0;
-	overflow-y: hidden;
+	/* overflow-y: hidden; */
 }
 
 /* header */
@@ -259,11 +259,11 @@ body {
 #header .utils img {
 	padding:0 5px;
 }
-#header .main_slider .swiper-container .video_all {
+#header .main_slider .swiper-container .swiper-slide {
 	height: 100vh;
 	overflow: hidden;
 }
-#header .main_slider .swiper-container .video_all video {
+#header .main_slider .swiper-container .swiper-slide video {
 	display: block;
 	width: 100%;
 	height: 100%;

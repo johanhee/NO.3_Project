@@ -61,6 +61,7 @@ window.addEventListener("DOMContentLoaded", function(){
 			}
 		});
    }
+
    $(function(){
 	var n=0;
 	var h;
@@ -94,7 +95,7 @@ window.addEventListener("DOMContentLoaded", function(){
 			}
 		}
 		else{
-			if(n < 6){
+			if(n < 4){
 				n=n+1;
 			}
 		}
